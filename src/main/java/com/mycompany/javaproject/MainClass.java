@@ -10,13 +10,14 @@ package com.mycompany.javaproject;
  * @author KIM ANH
  */
 public class MainClass {
-    public int timMin(int a , int b , int c){
+    //TimMin by NguyenVanAnh
+    public int timMin(int a , int b , int c){ 
         int min = a;
         if(a > b) min = b;
         else if( a > c) min = c;
         return min;
     }
-    
+
     public static void main(String[] args) {
         MainClass a = new MainClass();
         System.out.println("Min là : "+ a.timMin(10, 22, 9));
