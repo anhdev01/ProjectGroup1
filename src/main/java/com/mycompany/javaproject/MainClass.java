@@ -17,9 +17,10 @@ public class MainClass {
         else if( a > c) min = c;
         return min;
     }
-
+    
     public static void main(String[] args) {
         MainClass a = new MainClass();
+        //Chạy code trong này
         System.out.println("Min là : "+ a.timMin(10, 22, 9));
     }
 }
