@@ -58,6 +58,8 @@ public class MainClass {
     public static void main(String[] args) {
         MainClass a = new MainClass();
         //Chạy code trong này
+                //Chạy code trong này
+                        //Chạy code trong này
 <<<<<<< HEAD
         System.out.println("Min là : "+ a.timMin(10, 22, 9));
         System.out.println("Max là : "+ a.timMax(101, 222, 19)); 
