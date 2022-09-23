@@ -37,7 +37,7 @@ public class MainClass {
     public static void main(String[] args) {
         MainClass a = new MainClass();
         //Chạy code trong này
-        System.out.println("Min là : "+ a.timMin(10, 22, 9));
+        System.out.println("Min là : "+ a.timMin(60, 100, 22));
         System.out.println("Max là : "+ a.timMax(101, 222, 19));
         System.out.println("Tong hai so la :" +a.PhepCong(7,6));
         System.out.println("Hieu hai so la :" +a.PhepTru(10,6));
