@@ -29,6 +29,7 @@ public class MainClass {
          return a*b;
      }
     //Mothod TimMim by Nguyen Van Anh
+    //PhepChia by Nguyen Duc Ha
      public int PhepChia(int a, int b){
         return a/b;
      }
