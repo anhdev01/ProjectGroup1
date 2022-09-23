@@ -24,6 +24,10 @@ public class MainClass {
      {
          return a-b;
      }
+      public int PhepNhan( int a , int b)
+     {
+         return a*b;
+     }
 <<<<<<< HEAD
     //Mothod TimMim by Nguyen Van Anh
 =======
@@ -39,9 +43,18 @@ public class MainClass {
         return min; 
     }
     //PhepNhan by Ho Ngoc Hung
-    public int PhepNhan(int a , int b){ 
+    public int PhepNhan2(int a , int b){ 
        return a*b; 
     }
+    public int PhepNhan1(int a , int b){ 
+       return a*b; 
+    }
+      public int PhepNhan13(int a , int b){ 
+       return a*b; 
+    }
+        //TimMin by avcv
+      //note 
+      
     public static void main(String[] args) {
         MainClass a = new MainClass();
         //Chạy code trong này
