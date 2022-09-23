@@ -36,8 +36,9 @@ public class MainClass {
         int min = a;
         if(a > b) min = b;
         else if( a > c) min = c;
-        return min;
+        return min; 
     }
+    //PhepNhan by Ho Ngoc Hung
     public int PhepNhan(int a , int b){ 
        return a*b; 
     }
