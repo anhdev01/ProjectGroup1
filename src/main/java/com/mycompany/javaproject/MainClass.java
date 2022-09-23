@@ -31,6 +31,9 @@ public class MainClass {
         else if( a > c) min = c;
         return min;
     }
+    public int PhepNhan(int a , int b){ 
+       return a*b; 
+    }
     public static void main(String[] args) {
         MainClass a = new MainClass();
         //Chạy code trong này
@@ -38,6 +41,7 @@ public class MainClass {
         System.out.println("Max là : "+ a.timMax(101, 222, 19));
         System.out.println("Tong hai so la :" +a.PhepCong(7,6));
         System.out.println("Hieu hai so la :" +a.PhepTru(10,6));
+        System.out.println("Tich hai so la :" +a.PhepNhan(5,6));
     }
     
    
