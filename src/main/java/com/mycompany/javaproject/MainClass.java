@@ -17,6 +17,9 @@ public class MainClass {
         else if( a < c) max = c;
         return max;
     }
+     public int PhepCong ( int a , int b) {
+         return a+b;
+     }
     //TimMin by NguyenVanAnh
     public int timMin(int a , int b , int c){ 
         int min = a;
@@ -29,6 +32,8 @@ public class MainClass {
         //Chạy code trong này
         System.out.println("Min là : "+ a.timMin(10, 22, 9));
         System.out.println("Max là : "+ a.timMax(101, 222, 19));
+        System.out.println("Tong hai so la :" +a.PhepCong(7,6));
     }
+    
    
 }
