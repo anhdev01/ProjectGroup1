@@ -24,7 +24,7 @@ public class MainClass {
      {
          return a-b;
      }
-    //TimMin by NguyenVanAnh
+    //Mothod TimMim by Nguyen Van Anh
     public int timMin(int a , int b , int c){ 
         int min = a;
         if(a > b) min = b;
