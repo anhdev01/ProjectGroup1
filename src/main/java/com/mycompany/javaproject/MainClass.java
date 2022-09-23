@@ -24,20 +24,18 @@ public class MainClass {
      {
          return a-b;
      }
-<<<<<<< HEAD
     //Mothod TimMim by Nguyen Van Anh
-=======
      public int PhepChia(int a, int b){
         return a/b;
      }
     //TimMin by NguyenVanAnh
->>>>>>> 4f8d982cb2afcbc5b23c7d39de0a363896c1f088
     public int timMin(int a , int b , int c){ 
         int min = a;
         if(a > b) min = b;
         else if( a > c) min = c;
         return min;
     }
+    
     public int PhepNhan(int a , int b){ 
        return a*b; 
     }
