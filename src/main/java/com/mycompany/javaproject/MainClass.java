@@ -17,7 +17,7 @@ public class MainClass {
         else if( a < c) max = c;
         return max;
     }
-     public int PhepCong ( int a , int b) {
+      public int PhepCong ( int a , int b) {
          return a+b;
      }
      public int PhepTru( int a , int b)
@@ -41,8 +41,8 @@ public class MainClass {
         MainClass a = new MainClass();
         //Chạy code trong này
         System.out.println("Min là : "+ a.timMin(10, 22, 9));
-        System.out.println("Max là : "+ a.timMax(101, 222, 19));
-        System.out.println("Tong hai so la :" +a.PhepCong(7,6));
+        System.out.println("Max là : "+ a.timMax(101, 222, 19)); 
+        System.out.println("Tong hai so la :" +a.PhepCong(10,6));
         System.out.println("Hieu hai so la :" +a.PhepTru(10,6));
         System.out.println("Tich hai so la :" +a.PhepNhan(5,6));
         System.out.print("Thuong hai so la:" +a.PhepChia(10, 5));
